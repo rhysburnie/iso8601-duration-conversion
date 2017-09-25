@@ -1,7 +1,10 @@
+
 // Welcome! require() some modules from npm (like you were using browserify)
 // and then hit Run Code to run your code on the right side.
 // Modules get downloaded from browserify-cdn and bundled in your browser.
 var iso8601Duration = require('iso8601-duration');
+
+// https://github.com/wking/milliseconds-to-iso-8601-duration/blob/master/milliseconds-to-iso-8601-duration.js
 var millisecondsToISO8601Duration = function(milliseconds) {
 		if (milliseconds == 0) {
 			return 'P0D';
