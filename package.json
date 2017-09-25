@@ -1,0 +1,7 @@
+{
+  "name": "requirebin-sketch",
+  "version": "1.0.0",
+  "dependencies": {
+    "iso8601-duration": "1.0.6"
+  }
+}
